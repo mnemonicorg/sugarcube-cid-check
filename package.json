@@ -1,5 +1,5 @@
 {
-  "name": "littlefork-boilerplate-plugin",
+  "name": "littlefork-plugin-check",
   "version": "0.0.1",
   "description": "A scaffolding repository to quick start a new littlefork plugin.",
   "main": "_dist/index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/littlefork/littlefork-boilerplate-plugin.git"
+    "url": "git+https://github.com/syrianarchive/littlefork-plugin-check.git"
   },
   "keywords": [
     "littlefork"
@@ -37,9 +37,9 @@
   "author": "crito <crito@cryptodrunks.net>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://gitlab.com/littlefork/littlefork-boilerplate-plugin/issues"
+    "url": "https://github.com/syrianarchive/littlefork-plugin-check/issues"
   },
-  "homepage": "https://gitlab.com/littlefork/littlefork-boilerplate-plugin#README",
+  "homepage": "https://github.com/syrianarchive/littlefork-plugin-check#README",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
@@ -61,6 +61,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.0",
+    "graphql-client": "^1.1.0",
     "littlefork-core": "^0.9.7",
     "lodash": "^4.17.4"
   }
