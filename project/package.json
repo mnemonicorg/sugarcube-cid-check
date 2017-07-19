@@ -1,0 +1,11 @@
+{
+  "name": "littlefork-project",
+  "description": "A minimal Littlefork project to test the module under development.",
+  "scripts": {
+    "pass": "littlefork -p pass,tap_printf"
+  },
+  "dependencies": {
+    "littlefork-cli": "^0.9.5",
+    "littlefork-plugin-tap": "^0.9.2"
+  }
+}
